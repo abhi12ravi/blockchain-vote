@@ -24,13 +24,21 @@ A voting application demo for codemash
 
 
 
+
+
 ## Exercise 2.2: Deploy Smart Contract
 ```
 > abiDefinition = JSON.parse(compiledCode.contracts[':Voting'].interface)
 > VotingContract = web3.eth.contract(abiDefinition)
 > byteCode = compiledCode.contracts[':Voting'].bytecode
 ```
+## Excercise 2.2b: Deploy Smart contract
+```
+> deployedContract = VotingContract.new(['Rama','Nick','Jose'],{data: byteCode, from: web3.eth.accounts[0], gas: 4700000})
+> deployedContract.address
+> contractInstance = VotingContract.at(deployedContract.address)
 
+```
 
 
 
