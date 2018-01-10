@@ -58,7 +58,7 @@ Save the contractInstance.address for next exercise.
 
 ## Building a Simple web page
 - Clone this repo
-- Open Voting.sol and change the contractInstance.address to your own address
+- Open index.js and change the contractInstance.address to your own address
 - Open index.html on any browser
 - Increment votes and play around.
 
