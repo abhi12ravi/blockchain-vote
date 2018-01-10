@@ -55,5 +55,5 @@ Save the contractInstance.address for next exercise.
 - Increment votes and play around.
 
 
-## Truffle and advanced topics:
+### Truffle and advanced topics:
 Part 2: https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-2-30b3d335aa1f
