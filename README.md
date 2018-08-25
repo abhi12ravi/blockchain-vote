@@ -6,6 +6,9 @@ A voting application demo for codemash
 - Get online (CodeMash)
 - VM  (http://prereqs.codemash.org/)
 - mkdir voting_app
+- If you get an error message `npm update check failed`, run this on terminal - 
+ - `sudo chown -R $USER:$(id -gn $USER) /home/sagar/.config`
+ - `npm install -g npm`
 - npm install ethereumjs-testrpc web3@0.20.1
 - node_modules/.bin/testrpc
 - npm install solc
