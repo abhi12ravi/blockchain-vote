@@ -7,7 +7,7 @@ A voting application demo for codemash
 - VM  (http://prereqs.codemash.org/)
 - mkdir voting_app
 - If you get an error message `npm update check failed`, run this on terminal - 
-  - `sudo chown -R $USER:$(id -gn $USER) /home/sagar/.config`
+  - `sudo chown -R $USER:$(id -gn $USER) /home/<username>/.config`
   - `sudo npm install -g npm`
 - `sudo npm install ganache-cli web3@0.20.1`
 - node_modules/.bin/testrpc
