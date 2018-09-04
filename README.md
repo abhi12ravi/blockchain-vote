@@ -13,6 +13,10 @@ A voting application demo for codemash
 - node_modules/.bin/testrpc
 - npm install solc
 
+## Exercise 2.0: Start a test blockchain network
+
+`$node_modules/.bin/ganache-cli`
+
 ## Exercise 2.1: Compile Smart Contract
 ```
 > Web3 = require('web3')
