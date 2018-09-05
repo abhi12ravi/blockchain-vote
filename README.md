@@ -8,12 +8,14 @@ A voting application demo for codemash
 - Check if npm is installed using this command on the Ubuntu terminal `npm -v`
 - You will get a version number starting with 5, you are good to go the next step.
 - Clone this git repo like this `git clone https://github.com/abhi12ravi/blockchain-vote.git`
+- cd into the repo
 
-- `sudo npm install ganache-cli web3@0.20.1`
-- node_modules/.bin/testrpc
-- npm install solc
+- Run this command to install web3 and ganache-cli `sudo npm install ganache-cli web3@0.20.1`
+- Install the solidity compiler `npm install solc`
+- *Note:* `testrpc` is deprecated and now we have `ganache-cli`
+- Start the test blockchain network like this: `node_modules/.bin/testrpc`
 
-## Troubleshooting steps
+## Troubleshooting steps - dev env setup
 If you get an error message `npm update check failed`, run this on terminal - 
   - `sudo chown -R $USER:$(id -gn $USER) /home/<username>/.config`
   - `sudo npm install -g npm`
