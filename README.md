@@ -13,7 +13,7 @@ A voting application demo for codemash
 - Run this command to install web3 and ganache-cli `sudo npm install ganache-cli web3@0.20.1`
 - Install the solidity compiler `npm install solc`
 - *Note:* `testrpc` is deprecated and now we have `ganache-cli`
-- Start the test blockchain network like this: `node_modules/.bin/testrpc`
+- Start the test blockchain network like this: `node_modules/.bin/testrpc`. If all is well, this returns a list of 10 `eth` accounts and starts the blockchain network.
 
 ## Troubleshooting steps - dev env setup
 If you get an error message `npm update check failed`, run this on terminal - 
