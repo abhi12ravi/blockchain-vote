@@ -5,13 +5,18 @@ A voting application demo for codemash
 
 - Get online (CodeMash)
 - VM  (http://prereqs.codemash.org/)
-- mkdir voting_app
-- If you get an error message `npm update check failed`, run this on terminal - 
-  - `sudo chown -R $USER:$(id -gn $USER) /home/<username>/.config`
-  - `sudo npm install -g npm`
+- Check if npm is installed using this command on the Ubuntu terminal `npm -v`
+- You will get a version number starting with 5, you are good to go the next step.
+- Clone this git repo like this `git clone https://github.com/abhi12ravi/blockchain-vote.git`
+
 - `sudo npm install ganache-cli web3@0.20.1`
 - node_modules/.bin/testrpc
 - npm install solc
+
+## Troubleshooting steps
+If you get an error message `npm update check failed`, run this on terminal - 
+  - `sudo chown -R $USER:$(id -gn $USER) /home/<username>/.config`
+  - `sudo npm install -g npm`
 
 ## Exercise 2.0: Start a test blockchain network
 
