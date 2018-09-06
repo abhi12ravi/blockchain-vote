@@ -40,7 +40,7 @@ If you get an error message `npm update check failed`, run this on terminal -
 
 
 
-## Exercise 2.2: Deploy Smart Contract
+## Exercise 2.2: Get an instance of VotingContract
 ```
 > abiDefinition = JSON.parse(compiledCode.contracts[':Voting'].interface)
 > VotingContract = web3.eth.contract(abiDefinition)
