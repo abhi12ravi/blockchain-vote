@@ -4,7 +4,7 @@ A voting application demo for codemash
 ## Hands-on Exercise 1: 
 
 - Get online (CodeMash)
-- VM  (http://prereqs.codemash.org/)
+- VM is available [here](https://drive.google.com/folderview?id=1TPGO4xgo6NQTyqwF3MdzHLma4k6_fM_r) 
 - Check if npm is installed using this command on the Ubuntu terminal `npm -v`
 - You will get a version number starting with 5, you are good to go the next step.
 - Clone this git repo like this `git clone https://github.com/abhi12ravi/blockchain-vote.git`
